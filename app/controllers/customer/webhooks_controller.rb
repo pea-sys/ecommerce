@@ -35,7 +35,8 @@ class Customer::WebhooksController < ApplicationController
         session_with_expand.line_items.data.each do |line_item|
           create_order_details(order, line_item) # 取り出したline_itemをorder_detailsテーブルに登録
         end
-      end # トランザクション処理終了
+      end
+      # トランザクション処理終了
       customer.cart_items.destroy_all # 顧客のカート内商品を全て削除
       redirect_to session.success_url
     end
