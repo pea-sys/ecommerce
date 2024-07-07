@@ -1,3 +1,7 @@
+# こちらの本のコードです
+本リポジトリはオリジナルではありません。  
+https://zenn.dev/farstep/books/7f169cdc597ada
+
 # An example Rails + Docker app
 
 ![CI](https://github.com/nickjj/docker-rails-example/workflows/CI/badge.svg?branch=main)
